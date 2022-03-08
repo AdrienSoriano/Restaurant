@@ -1,0 +1,42 @@
+html{
+	font-size: 16px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header img{
+	width: 100%;
+}
+ul{
+	width: 100%;
+}
+
+
+.menu_burger{
+	display: none;
+}
+.panier{
+	display: none;
+}
+
+
+@media only screen and (max-width: 770px){
+.menu_burger{
+	display: flex;
+}
+.menu_normal{
+	display: none;
+}
+.icone_burger{
+	width: 2rem;
+}
+.burger_croix{
+	width: 2rem;
+	display: none;
+	margin-right: 100%;
+}
+
+
+}
