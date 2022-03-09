@@ -7,7 +7,10 @@ html{
 	font-family: 'Montserrat';
 }
 
-
+footer div span a:hover{
+color: #050505!important;
+text-decoration: underline!important;
+}
 .menu_burger{
 	position: absolute;
 	width: 100%;
@@ -169,15 +172,16 @@ main div{
 	.wrapper{
 		width: 80% ;
 	}
+
 }
 
 @media only screen and (max-width: 430px){
 	footer section img{
 		width: 100%;
 	}
-	footer a{
-		font-size: 0.7rem;
-	}
+	 html{
+        font-size: 12px;
+    }
 	
 	.wrapper{
 		width: 100% ;
@@ -192,9 +196,9 @@ main div{
 
 @media only screen and (max-width: 340px){
 
-footer a{
-		font-size: 0.6rem;
-	}
+ html{
+        font-size: 12px;
+    }
 		main div div{
 		width: 8rem;
 		height: 12rem;
