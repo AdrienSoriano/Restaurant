@@ -30,7 +30,7 @@ footer{
 footer a{
     text-decoration: none !important;
     color: #050505;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 footer section img{
     width: 70%;
@@ -47,10 +47,42 @@ main section.bg-alternate{
     background-image: url(../assets/media/black_background_home.svg)!important;
     
 }
-
+header nav ul li a:hover{
+    color: #21C6DD!important;
+}
+footer ul li a:hover{
+    color: #050505!important;
+    text-decoration: underline!important;
+}
+footer div span a:hover{
+    color: #050505!important;
+    text-decoration: underline!important;
+}
+footer a.btn img:hover{
+    filter: invert(0.8)!important;
+}
+footer a.btn img.github:active, footer a.btn img.facebook:active, footer a.btn img.linkedin:active, footer a.btn img.twitter:active, footer a.btn img.instagram:active{
+    filter: invert(0.8) drop-shadow(0px 0px 2px #4b4b4b)!important;
+}
 
 @media only screen and (max-width: 770px){
     
+html{
+    font-size: 12px;
+}
+main{
+    margin-top: 5%;
+}
+main section div{
+    height: 150%;
+}
+.menu_burger{
+    position: absolute; 
+    width: 100%;
+}
+header{
+    font-size: 2rem;
+}
 .menu_burger{
 	display: flex;
 }
@@ -58,29 +90,57 @@ main section.bg-alternate{
 	display: none;
 }
 .icone_burger{
-	width: 2rem;
+	width: 4rem;
 }
 .burger_croix{
-	width: 2rem;
+	width: 4rem;
 	display: none;
 	margin-right: 100%;
 }
-footer a{
-    font-size: 0.8rem;
+.logo{
+    width: 20%;
 }
-
+main section img{
+    width: 100%!important;
+}
+#accueil-menu1{
+    width: 45%!important;
+}
+#accueil-menu2{
+    width: 45%!important;
+}
+.employe{
+    width: 34%!important;
+}
 
 
 }
 @media only screen and (max-width: 430px){
-    footer section img{
-        width: 100%;
+    html{
+        font-size: 12px;
     }
+    
+    main section{
+        padding: 0!important;
+    }
+    main section div{
+        width: 90%!important;
+        padding: 0!important;
+    }
+    footer section img{
+        width: 80%;
+    }
+    #recrutement{
+        width: 100vw!important;
+    }
+}
+.employe{
+    width: 30%!important;
 }
 
 @media only screen and (max-width: 340px){
 
     footer a{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 }
