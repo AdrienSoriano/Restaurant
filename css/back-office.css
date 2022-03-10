@@ -22,12 +22,12 @@ main{
     width: 12px;
 }
 .bloc_donnees::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgb(202,202,202,1);
+    box-shadow: inset 0 0 6px rgb(202,202,202,1)!important;
     border-radius: 10px;
 }
 .bloc_donnees::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    box-shadow: inset 0 0 6px rgba(0,0,0,1); 
+    box-shadow: inset 0 0 6px rgba(0,0,0,1)!important; 
 }
 .bloc_produit{
     width: 90%;
