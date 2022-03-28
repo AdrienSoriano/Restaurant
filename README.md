@@ -30,5 +30,5 @@ Le projet s'est effectué *du 25/02/2022 au 15/03/2022*.
 
 Le projet n'est pas encore en ligne.
 
-Lien vers le github du collaborateur : [Florian Moulun](https://github.com/FlorianMoulun){:target="_blank"}
+Lien vers le github du collaborateur : [Florian Moulun](https://github.com/FlorianMoulun?target=_blank)
 
