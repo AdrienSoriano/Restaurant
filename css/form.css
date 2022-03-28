@@ -1,0 +1,126 @@
+html{
+  font-size: 16px;
+}
+header{
+  width: 100vw;
+}
+header div{
+  width: 50%;
+}
+header img{
+  width: 7%;
+}
+p{
+  color: #B60A0A;
+  position: absolute;
+  margin-top: 0.5%;
+}
+
+#container{
+  background: rgba(255, 245, 235, 0.45);
+  width: 57%;
+}
+#icone_nom_bleu,#icone_prenom_bleu{
+  visibility:hidden;
+  position: absolute;
+  margin-left: -24px;
+}
+#icone_mail_bleu{
+  visibility:hidden;
+  position: absolute;
+  margin-left: -27px;
+  margin-top: 5px;
+}
+#icone_message_bleu{
+visibility: hidden;
+  position: absolute;
+  margin-left: -25px;
+  margin-top: 3px;
+}
+input{
+  width: 50% !important;
+  border: none !important;
+}
+input:focus{
+  box-shadow: 0px 0px 20px rgba(33, 198, 221, 0.25) !important;
+}
+textarea{
+  width: 80% !important;
+  border: none !important;
+  resize: none !important;
+}
+textarea:focus{
+   box-shadow: 0px 0px 20px rgba(33, 198, 221, 0.25) !important;
+}
+
+
+
+@media only screen and (max-width: 1000px){
+  header img{
+    width: 10%;
+  }
+  header div{
+    width: 60%;
+  }
+  #container{
+    width: 70%;
+  }
+  .button{
+    margin-left: 5% !important;
+     }
+}
+@media only screen and (max-width: 780px){
+  header img{
+    width: 15%;
+  }
+  header div{
+    width: 100%;
+  }
+  #container{
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 500px){
+
+html{
+  font-size: 10px;
+}
+input{
+  width: 80% !important;
+  height: 5vh !important;
+}
+textarea{
+  height: 15vh !important;
+}
+button{
+  height: 5vh;
+  width: 30vw;
+  border-radius: 10% !important;
+}
+#container{
+  height: 89.8vh !important;
+}
+html{
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 401px){
+  html{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 370px){
+  form{
+    margin-left: -20%;
+  }
+  html{
+    font-size: 11px;
+  }
+
+}
+@media only screen and (max-width: 340px){
+  html{
+    font-size: 10px;
+  }
+}

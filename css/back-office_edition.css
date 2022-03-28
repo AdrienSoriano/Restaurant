@@ -1,0 +1,43 @@
+html{
+	font-size: 16px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat';
+}
+main{
+	background: rgba(255, 245, 235, 0.75);
+    height: 100vh;
+}
+.header{
+    width: 60%;
+    padding-bottom: 10%!important;
+}
+
+.cat{
+    width: 20%;
+}
+.new_product{
+    margin-left: 5%!important;
+}
+.validate{
+    background: rgba(0, 133, 255, 0.4);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+.validate:hover{
+    box-shadow: 0px 0px 20px #21C6DD!important;
+}
+.validate:active {
+    transform: translateY(4px);
+}
+.cancel{
+    background: rgba(255, 0, 0, 0.4);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+.cancel:hover{
+    box-shadow: 0px 0px 20px #21C6DD!important;
+}
+.cancel:active {
+    transform: translateY(4px);
+}

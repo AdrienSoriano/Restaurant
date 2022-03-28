@@ -1,0 +1,112 @@
+html{
+	font-size: 16px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat';
+}
+
+header img{
+	width: 100%;
+}
+nav ul{
+	width: 100%;
+
+}
+footer ul{
+	width: 28%;
+}
+
+.menu_burger{
+	display: none;
+}
+li{
+	line-height: 300%;
+}
+body{
+	background: rgba(255, 245, 235, 0.75);
+}
+footer{
+	background: rgba(167, 0, 0, 0.8);
+}
+
+footer a{
+	text-decoration: none !important;
+	color: #050505;
+	font-size: 1.3rem;
+
+}
+footer section img{
+	width: 70%;
+}
+header nav ul li a:hover{
+	color: #21C6DD!important;
+}
+footer ul li a:hover{
+	color: #050505!important;
+	text-decoration: underline!important;
+}
+footer div span a:hover{
+	color: #050505!important;
+	text-decoration: underline!important;
+}
+footer a.btn img:hover{
+	filter: invert(0.8)!important;
+}
+footer a.btn img.github:active, footer a.btn img.facebook:active, footer a.btn img.linkedin:active, footer a.btn img.twitter:active, footer a.btn img.instagram:active{
+	filter: invert(0.8) drop-shadow(0px 0px 2px #4b4b4b)!important;
+}
+main{
+	background: rgba(255, 245, 235, 0.75);
+}
+p{
+    font-size: 1.8rem;
+}
+.mentions{
+    width: 90%;
+    margin-top: 10%!important;
+    margin-bottom: 10%!important;
+}
+
+@media only screen and (max-width: 770px){
+.menu_burger{
+	display: flex;
+    position: absolute; 
+    width: 100%;
+}
+.menu_normal{
+	display: none;
+}
+.icone_burger{
+	width: 2rem;
+}
+.burger_croix{
+	width: 2rem;
+	display: none;
+	margin-right: 100%;
+}
+
+
+}
+@media only screen and (max-width: 430px){
+
+    
+html{
+    font-size: 12px;
+}
+span{
+    padding: 0!important;
+}
+	footer section img{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 340px){
+
+footer a{
+		font-size: 0.7rem;
+	}
+
+}
