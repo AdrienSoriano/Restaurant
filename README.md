@@ -5,12 +5,15 @@
 ![enter image description here](https://adriens1010.promo-106.codeur.online/images/restaurant-fa_ms.svg)
 
 Ce projet consiste à créer un site vitrine **dynamique et responsive** pour un restaurant en utilisant un **framework CSS**. 
+
 Ce site inclut un **back-office** permettant **d’ajouter, de modifier ou de supprimer** des éléments du menu stockés dans une base de donnée. 
+
 Le site contient également un **formulaire de contact** avec envoi de mail.
 
 ## Contexte du projet
 
 Projet en collaboration avec Florian Moulun. Le contexte était dans le cadre d'une formation développeur web Full Stack, ayant pour but de conforter nos compétences Front-end et de développer nos compétences Back-end. 
+
 Le projet s'est effectué *du 25/02/2022 au 15/03/2022*.
 
 
