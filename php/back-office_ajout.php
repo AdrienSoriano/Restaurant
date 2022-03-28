@@ -5,7 +5,7 @@ include "login.php";
 
 
 
-$conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+include "connect.php";
 
   
   

@@ -5,12 +5,12 @@ include "login.php";
 
 
 
-$conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+include "connect.php";
 
  if(isset($_GET['id']) AND !empty($_GET['id'])){
     $id = $_GET['id'];
     
-    $stmt = $conn->prepare("SELECT noms, prix, url_images FROM carte WHERE id=?");
+    $stmt = $bdd->prepare("SELECT noms, prix, url_images FROM carte WHERE id=?");
     $stmt->execute(array($id)); 
 
     if ($stmt->rowCount() > 0){
@@ -22,7 +22,7 @@ $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
         $img = htmlspecialchars($_POST['img']);
         $name = htmlspecialchars($_POST['name']);
         $price = htmlspecialchars($_POST['price']);
-        $up = $conn->prepare('UPDATE carte SET noms = ?, prix = ?, url_images = ? WHERE id = ?');
+        $up = $bdd->prepare('UPDATE carte SET noms = ?, prix = ?, url_images = ? WHERE id = ?');
         $up->execute(array($name, $price, $img, $id));
         header('Location: back-office.php');
         exit;

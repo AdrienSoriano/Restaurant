@@ -113,7 +113,7 @@
       
 <?php
                     /* dessert */
-                  $bdd = new PDO('mysql:host=localhost;dbname=restaurant', 'phpmyadmin', 'floraizo88');
+                  include "connect.php";
                   $recupProdDess = $bdd->query('SELECT noms, url_images FROM carte WHERE id_categorie=4');
                   
                   while ($valeursd = $recupProdDess->fetch())

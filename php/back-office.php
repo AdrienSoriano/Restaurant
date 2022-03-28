@@ -10,8 +10,8 @@ include "login.php";
 
 $sql = "SELECT id, noms, prix, url_images FROM carte";
   try{
-    $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-    $stmt = $conn->query($sql);
+    include "connect.php";
+    $stmt = $bdd->query($sql);
 
 
 ?>
